@@ -1,0 +1,35 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment folder (assuming it's named 'venv')
+venv/
+env/
+.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+/media
+/static
+
+# Django migrations
+*/migrations/*
+
+# Ignore .DS_Store files (macOS specific)
+.DS_Store
+
+# Ignore venv folders (IDE settings)
+.vscode/
+.idea/
+
+# Ignore local development settings files
+local_settings.py
+
+# Ignore other editor settings
+.project
+.python-version
